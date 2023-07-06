@@ -1,0 +1,51 @@
+* {
+    margin: 20px 10px 20px 10px;
+}
+body{
+    background-color: aquamarine;
+    
+}
+.container{
+    width: 90%;
+    margin: 0, auto;
+    position: center;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo {
+    display: inline-block;
+    
+}
+.logo h2 {
+    color: blueviolet;
+    font-size: 35px;
+    
+}
+.menu {
+    display: inline-block;
+    color: azure;
+     position: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    
+}
+
+.list{
+    border-top: 15px solid tomato;
+    border-radius: 10px;
+    background-color: bisque;
+    width: 18%;
+    display: inline-block;
+}
